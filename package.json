@@ -5,5 +5,12 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  },
+  "scripts": {
+    "build-run": "yarn tsc && node ./build/bot.js",
+    "build": "yarn tsc"
   }
 }
