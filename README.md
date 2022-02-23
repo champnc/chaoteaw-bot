@@ -73,6 +73,6 @@
 
 ## Copyright and license
 
-- Code and documentation copyright 2022 the authors. Code released under the [MIT License](https://reponame/blob/master/LICENSE).
+- Code and documentation copyright 2022 the authors. Code released under the [MIT License](https://github.com/champnc/chaoteaw-bot/blob/dev/LICENSE).
 
 Enjoy :wave:
