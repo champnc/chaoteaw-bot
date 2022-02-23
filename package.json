@@ -14,7 +14,7 @@
     "discord.js": "^13.6.0"
   },
   "scripts": {
-    "build-run": "yarn tsc && node ./build/bot.js",
+    "build:run": "yarn tsc && node ./build/bot.js",
     "build": "yarn tsc",
     "lint": "yarn run eslint ."
   }
