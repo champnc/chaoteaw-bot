@@ -1,3 +1,10 @@
+<br />
+<br />
+
+<p align="center">
+  <img src="./img/chaoteaw-bot-img.png" width="150" height="150"/>
+</p>
+
 # Chaoteaw Bot
 
 ## Table of contents
@@ -9,7 +16,7 @@
   - [Copyright and license](#copyright-and-license)
 
 
-## Quick start
+## Quick startv
 
 - ### Install [Node.js](https://nodejs.org/)
 
