@@ -6,6 +6,11 @@
 </p>
 
 # Chaoteaw Bot
+<div align="center">
+
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/champnc/chaoteaw-bot/CI/main) ![GitHub](https://img.shields.io/github/license/champnc/chaoteaw-bot) ![GitHub package.json version](https://img.shields.io/github/package-json/v/champnc/chaoteaw-bot) ![Chaoteaw status](https://img.shields.io/badge/Chaoteaw-down-red)
+
+</div>
 
 ## Table of contents
 
