@@ -1,11 +1,14 @@
 import Discord from "discord.js";
 import "dotenv/config";
+import { IntentBit } from "./commands/IntentBit";
 
-const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
+const client = new Discord.Client({
+  intents: [IntentBit.Guilds, IntentBit.GuildMessages],
+});
 client.login(process.env.DISCORD_KEY);
 
 const prefix = "!!";
-const randomMessage = ["ว่ายังไง","มีอะไรวะ","ว่าไงจ๊ะ"];
+const randomMessage = ["ว่ายังไง", "มีอะไรวะ", "ว่าไงจ๊ะ"];
 
 client.on("ready", () => {
   console.log("I'm ready😄...");
