@@ -1,10 +1,18 @@
-import Discord from "discord.js";
+import {Client, GatewayIntentBits} from "discord.js";
 import "dotenv/config";
 
-const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
-client.login(process.env.DISCORD_KEY);
+const client = new Client({ intents: [
+  GatewayIntentBits.Guilds,
+  GatewayIntentBits.GuildMessages,
+  GatewayIntentBits.MessageContent
+] });
 
-const prefix = "!!";
+client.login(process.env.DISCORD_KEY).catch((err) => {
+  console.error("login error",err);
+  process.exit(1);
+});
+
+const prefix = "!";
 const randomMessage = ["ว่ายังไง","มีอะไรวะ","ว่าไงจ๊ะ"];
 
 client.on("ready", () => {
